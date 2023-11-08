@@ -32,7 +32,7 @@ const ImgCard = ({ data }) => {
   return (
     <div className="mt-[120px] px-4 ">
       <h2 className="lg:text-4xl text-center py-2 font-bold text-red-600">Recent Photos</h2>
-      <div className="img-container flex flex-wrap justify-around">
+      <div className="img-container flex flex-wrap gap-2 justify-around">
         {data.map((photo) => (
           <div key={photo.id} className="img-card relative" onClick={() => openModal(photo)}>
             <img
