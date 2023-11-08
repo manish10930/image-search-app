@@ -13,9 +13,19 @@ const ImgCard = ({ data }) => {
 
   if (!data || data.length === 0) {
     return (
-      <div className="flex flex-col-reverse pt-10 items-center">
-        <h1 className="text-4xl">Loading.....</h1>
+      <div className=" mt-40 pt-10 items-center">
+        {/* <h1 className="text-4xl">Loading.....</h1> */}
+        <div className='flex justify-around flex-wrap gap-2 '>
+
+           <div className='w-[400px] h-[300px] bg-gray-400 animate-pulse'></div>
+           <div className='w-[400px] h-[300px] bg-gray-400 animate-pulse'></div>
+           <div className='w-[400px] h-[300px] bg-gray-400 animate-pulse'></div><div className='w-[400px] h-[300px] bg-gray-400 animate-pulse'></div>
+           <div className='w-[400px] h-[300px] bg-gray-400 animate-pulse'></div>
+           <div className='w-[400px] h-[300px] bg-gray-400 animate-pulse'></div>
+          
+        </div>
       </div>
+
     );
   }
 
@@ -57,3 +67,4 @@ const ImgCard = ({ data }) => {
 };
 
 export default ImgCard;
+
