@@ -7,9 +7,7 @@ function App() {
   return (
    <>
    <Provider store={Store}>
-
     <Home/>
-
    </Provider>
    </>
   );

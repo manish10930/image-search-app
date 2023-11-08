@@ -68,3 +68,4 @@ const ImgCard = ({ data }) => {
 
 export default ImgCard;
 
+
